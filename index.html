@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edu Plus</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/e72e4d3ee3.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
         <header class="container">
         <!-- Navbar Start -->
-        <section class="container-lg container-md navbar navbar-expand-lg bg-light">
+        <section class="container-sm navbar navbar-expand-lg bg-light fixed-top">
             <nav class="container navbar bg-light fixed-top">
                 <div class="container-fluid">
                   <a class="navbar-brand h1 text-info fw-bold" href="#">Edu+</a>
@@ -50,15 +51,15 @@
                             <li>
                               <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Partners</a></li>
+                            <li><a class="dropdown-item d-none d-md-block" href="#">Partners</a></li>
                           </ul>
                         </li>
                       </ul>
-                        <span class="d-none d-md-block d-lg-block mx-5 mt-1">
+                        <span class="d-none d-md-none d-lg-block mx-5 mt-1">
                           <a href=""><button type="button" class=" btn btn-outline-info">Register</button></a>
                         </span>
                       <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control mx-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                       </form>
                     </div>
@@ -114,7 +115,7 @@
         <!-- Top Banner End  -->
         </header>
         <!-- Courses Start  -->
-        <div class="text-center my-5 pt-5">
+        <div class="container text-center my-5 pt-5">
           <h2>Discover Our Popular Courses</h2>
           <p class="text-wrap p-1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
         </div>
@@ -244,7 +245,7 @@
         <!-- Middle Banner End  -->
            <!-- Modal Start  -->
         <section>
-        <div class="container d-flex justify-content-around align-items-center p-5 my-5 bg-info rounded">
+        <div class="container d-flex justify-content-around align-items-center flex-column flex-lg-row p-5 my-5 bg-info rounded">
           <div class="text-light">
             <h1>Ready to join?</h1>
             <p>Start, switch, or advance your career with more than 5,000 courses, <br> Professional Certificates, and degrees from world-class universities and companies..!</p>
@@ -281,6 +282,102 @@
             </div>
           </div>
         </section>
+        <!-- Modal End  -->
+        <!-- Success Stories Start  -->
+        <Section class="container">
+          <div>
+            <h1>Meet Our Successfull Students</h1>
+            <p>More than 2M student have tried our courses and started a new life. Hear about their stories and change your life too! </p>
+          </div>
+          <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="images/student/student-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Morris Anderson</h5>
+                  <p class="card-text">UI/UX Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/student/student-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jena May</h5>
+                  <p class="card-text">Digital Marketing Specialist</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/student/student-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Alex Mason</h5>
+                  <p class="card-text">Graphic Designer</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/student/student-4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">April Carson</h5>
+                  <p class="card-text">Web Designer</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="btn btn-info btn-lg px-5 text-light rounded text-center my-4 d-flex justify-content-center" href="#about">View All</a>
+        </Section>
+        <section class="container">
+          <div class="text-center">
+            <h1>Some Students Feedback</h1>
+            <p>Gather valuable student feedback and support a positive learning
+              experience for all</p>
+          </div>
+          <div id="carouselExampleControls" class="carousel slide my-5" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                  <div class="d-flex flex-column justify-content-center p-5 m-5">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                      <img src="images/comma.png" alt="">
+                      <div class="text-warning"><b class="text-dark p-1">4.5</b><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                    </div>
+                    <p class="text-start text-wrap w-100 p-3 overflow-hidden">Foundations of User Experience (UX) Design is the first of a series of seven courses that will equip you with the skills needed to apply to entry-level jobs in user experience design. <span class="d-none d-md-inline"> UX designers focus on the interactions that people have with products like websites, mobile apps, and physical objects. UX designers make those everyday interactions usable, enjoyable, and accessible. The role of an entry-level UX designer might include empathizing with users, defining their pain points, coming up with ideas for design solutions, creating wireframes, prototypes, and mockups, and testing designs to get feedback.</span> </p>
+                    <div class="d-flex align-items-center">
+                      <img class="img-fluid p-2 m-2" src="images/student/student-5.png" alt="">
+                      <div><h6>Henry Dave</h6>
+                        <p>UI/UX Designer</p></div>
+                    </div>
+                    </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="d-flex flex-column justify-content-center p-5 m-5">
+                    <div class="d-flex justify-content-between align-items-center w-100">
+                      <img src="images/comma.png" alt="">
+                      <div class="text-warning"><b class="text-dark p-1">4.5</b><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></div>
+                    </div>
+                    <p class="text-start text-wrap w-100 p-3 overflow-hidden">This course for serious makers, and for students new to imagemaking.<span class="d-none d-md-inline">Imagemaking is a fluid and exciting area of graphic design that comes out of practice and process: experimenting fearlessly, showing and sharing ideas, and giving and receiving knowledgeable and constructive input.
+                      For the sake of this online platform, we have applied some structure to our investigations, but for the most part imagemaking is loose and unstructured. If we must adopt a rule in this course it is only this: you will not become a graphic designer by watching videos alone. Or, don't just make stuff just in your head. So here, the focus here is on making, and you are expected to devote serious time and intellectual energy to that activity in this course.</span>  </p>
+                    <div class="d-flex align-items-center">
+                      <img class="img-fluid p-2 m-2" src="images/student/student-6.png" alt="">
+                      <div><h6>Lorraine Wild</h6>
+                        <p>Graphics Designer</p></div>
+                    </div>
+                  </div>
+                  </div>
+            <button class="carousel-control-prev btn btn-outline-info" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next btn btn-outline-info" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+        <!-- Success Stories End  -->
+        
 
 
         
